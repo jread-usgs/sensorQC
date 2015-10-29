@@ -246,4 +246,8 @@ points(flag(sensor, 'x == 999999', 'persist(x) > 3', 'MAD(x,w) > 3', 'MAD(x) > 3
     ## Warning in MAD.roller(x, w): MAD.roller function has not been robustly
     ## tested w/ NAs
 
+``` r
+legend('topleft',legend = c('no rolling window','rolling window'), col = c('black','red'), pch = c(1,20), bty='n')
+```
+
 ![](README_files/figure-markdown_github/unnamed-chunk-11-1.png)
